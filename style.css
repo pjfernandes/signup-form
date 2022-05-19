@@ -11,7 +11,7 @@
   background-image: url("forest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -27,10 +27,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   top: 25%;
   font-size: 2rem;
   font-family: odin-font;
+  position: relative;
 }
 
 .odin-logo > img {
@@ -42,7 +42,7 @@
   left: 37%;
   top: 0;
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .right > .right-content {
@@ -56,7 +56,7 @@
 
 .right > .right-content > article {
   color:rgba(67, 56, 56, 0.489);
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .button {
@@ -80,7 +80,7 @@
 }
 
 .create-account > p {
-    margin-top: 55px;
+    margin-top: 30px;
 
 }
 
@@ -99,4 +99,37 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
   padding: 15px;
+  width: 85%;
+  color: rgba(0, 0, 0, 0.691);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content > form {
+  font-size: 1.05rem;
+  color: rgba(0, 0, 0, 0.36);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left:  5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.form-content > form > input {
+  width: 100%;
+  border-radius: 4px;
+  border: solid 1px rgb(174, 173, 173);
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.form-content>form>label {
+  margin-top: 25px;
 }
