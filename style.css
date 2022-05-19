@@ -1,0 +1,97 @@
+@font-face {
+  font-family: odin-font;
+  src: url(Norse-Bold.otf);
+}
+
+.left-bar {
+  width: 35%;
+  height: 100vh;
+  background-image: url("forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+.left-bar > .odin-logo {
+  width: 100%;
+  height: 15%;
+  min-height: 15%;
+  color: white;
+  background-color: rgba(0, 0, 0, .6);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 25%;
+  font-size: 2rem;
+  font-family: odin-font;
+}
+
+.odin-logo > img {
+  height: 65%;
+}
+
+.right {
+  position: absolute;
+  left: 37%;
+  top: 0;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+.right > .right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  position: relative;
+  top: 20px;
+  padding: 15px;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: rgb(7, 77, 7);
+}
+
+.button:active {
+  border: solid 1px rgb(7, 77, 7);
+}
+
+.create-account > p {
+    margin-top: 30px;
+
+}
+
+.create-account > p > a {
+  text-decoration: none;
+  color: green;
+}
+
+.create-account > p > a:hover {
+  color: rgb(7, 77, 7);
+  font-weight: bolder;
+}
+
+.form-content {
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
