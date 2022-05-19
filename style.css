@@ -54,6 +54,11 @@
   top: 20px;
 }
 
+.right > .right-content > article {
+  color:rgba(67, 56, 56, 0.489);
+  font-size: 2rem;
+}
+
 .button {
   background-color: green;
   color: white;
