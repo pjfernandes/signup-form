@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
 @font-face {
   font-family: odin-font;
   src: url(Norse-Bold.otf);
@@ -14,7 +16,6 @@
   left: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
 
 .left-bar > .odin-logo {
   width: 100%;
@@ -42,7 +43,6 @@
   top: 0;
   font-family: 'Roboto Flex', sans-serif;
   font-size: 18px;
-  letter-spacing: 1.2px;
 }
 
 .right > .right-content {
@@ -52,7 +52,6 @@
   text-align: left;
   position: relative;
   top: 20px;
-  padding: 15px;
 }
 
 .button {
@@ -76,7 +75,7 @@
 }
 
 .create-account > p {
-    margin-top: 30px;
+    margin-top: 55px;
 
 }
 
@@ -94,4 +93,5 @@
   border-radius: 6px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
+  padding: 15px;
 }
