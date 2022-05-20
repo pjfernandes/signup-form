@@ -27,35 +27,39 @@
         <p>You <i>know</i> what do do.</p>
 
         <div class="form-content">
-          Let's do this!
+          <div class="form-container">
+            <div class="title"> Let's do this!</div>
 
-          <form action="" method="post">
+            <form action="" method="post">
+              <div>
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" name="first_name" id="">
+                <br>
+                <label for="last_name">LAST NAME</label>
+                <input type="text" name="last_name" id="">
+              </div>
 
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" name="first_name" id="">
-            <label for="last_name">LAST NAME</label>
-            <input type="text" name="last_name" id="">
-
-
-
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="">
-            <label for="phone">PHONE</label>
-            <input type="number" name="phone" id="">
-
-
-
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="">
-            <label for="password-confirm">CONFIRM PASSWORD</label>
-            <input type="password" name="password-confirm" id="">
-
+              <div>
+                <label for="email">E-MAIL</label>
+                <br>
+                <input type="email" name="email" id="">
+                <br>
+                <label for="phone">PHONE</label>
+                <br>
+                <input type="number" name="phone" id="">
+              </div>
 
 
-          </form>
-
+              <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="">
+                <br>
+                <label for="password-confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="password-confirm" id="">
+              </div>
+            </form>
+          </div>
         </div>
-
 
         <div class="create-account">
           <a href="#" class="button">Create account</a>
